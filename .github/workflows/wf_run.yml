@@ -27,5 +27,6 @@ jobs:
           ls -al
           tree artifacts
           cd artifacts
+          cd artifacts-blah-blah
           ls -al
           cat README.md
