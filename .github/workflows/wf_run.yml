@@ -24,7 +24,7 @@ jobs:
       - name: Publish Test Results
         run: |
           echo "Start ... "
-          ls
+          ls -al
           cd artifacts
           ls
           cat README.md
