@@ -34,12 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,artifacts-blah-blah
           echo test, and deploy your projectt?treee.
-          mkdir -p contrib/scripts
-          cd contrib/scripts
-          echo "which sh" > report-license-headers.sh
-          chmod +x report-license-headers.sh
-          pwd
-          ls
       
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
