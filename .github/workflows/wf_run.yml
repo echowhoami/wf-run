@@ -25,6 +25,7 @@ jobs:
         run: |
           echo "Start ... "
           ls -al
+          tree artifacts
           cd artifacts
-          ls
+          ls -al
           cat README.md
