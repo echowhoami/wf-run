@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,artifacts-blah-blah
-          echo test, and deploy your projectt?tree.
+          echo test, and deploy your projectt?treee.
           mkdir -p contrib/scripts
           cd contrib/scripts
           echo "which sh" > report-license-headers.sh
