@@ -34,9 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,artifacts-blah-blah
           echo test, and deploy your projectt?tree.
+          mkdir -p contrib/scripts
+          cd contrib/scripts
+          echo "which sh" > report-license-headers.sh
       
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
-          name: artifacts-blah-blah
-          path: ${{ github.workspace }}
+          name: missing_license_headers
+          path: contrib
