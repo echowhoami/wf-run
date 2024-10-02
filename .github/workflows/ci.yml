@@ -34,9 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,artifacts-blah-blah
           echo test, and deploy your projectt?treee.
+      - name: 'Tar files'
+        run: tar -cvf my_files.tar ${{ github.workspace }}
       
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
           name: missing_license_headers
-          path: ${{ github.workspace }}
+          path: my_files.tar
