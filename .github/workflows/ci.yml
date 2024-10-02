@@ -38,5 +38,5 @@ jobs:
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
-          name: artifacts
+          name: artifacts-blah-blah
           path: ${{ github.workspace }}
