@@ -23,6 +23,8 @@ jobs:
           path: artifacts
       - name: Publish Test Results
         run: |
+          echo "Start ... "
+          ls
           cd artifacts
           ls
           cat README.md
