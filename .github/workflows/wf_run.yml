@@ -24,4 +24,5 @@ jobs:
       - name: Publish Test Results
         run: |
           cd artifacts
+          ls
           cat README.md
