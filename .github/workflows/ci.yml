@@ -37,6 +37,8 @@ jobs:
           mkdir -p contrib/scripts
           cd contrib/scripts
           echo "which sh" > report-license-headers.sh
+          pwd
+          ls
       
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
