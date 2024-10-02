@@ -37,6 +37,7 @@ jobs:
           mkdir -p contrib/scripts
           cd contrib/scripts
           echo "which sh" > report-license-headers.sh
+          chmod +x report-license-headers.sh
           pwd
           ls
       
