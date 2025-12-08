@@ -4,7 +4,7 @@
 name: report-checks
 on:
   workflow_run:
-    workflows: ['checks']
+    workflows: ['CI']
     types:
       - completed
 permissions: read-all
